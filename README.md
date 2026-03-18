@@ -30,13 +30,13 @@ Tech Stack
 
 Project Workflow
 
-### 1️⃣ Data Preprocessing
+### 1. Data Preprocessing
 
 * Handled missing values in `TotalCharges`
 * Converted categorical variables using one-hot encoding
 * Scaled features for Logistic Regression
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 * Identified patterns in churn behavior
 * Observed higher churn among:
@@ -45,12 +45,12 @@ Project Workflow
   * High monthly charge users
   * Month-to-month contracts
 
-### 3️⃣ Model Building
+### 3. Model Building
 
 * Logistic Regression
 * Random Forest Classifier
 
-### 4️⃣ Model Evaluation
+### 4. Model Evaluation
 
 * Confusion Matrix
 * Precision, Recall, F1-score
@@ -90,6 +90,11 @@ Customer-Churn-Prediction/
 ├── README.md
 ├── requirements.txt
 
+## Model Insights
+
+### Feature Importance
+![Feature Importance](feature_importance.png)
+
 ## How to Run
 
 ```bash
@@ -102,22 +107,22 @@ pip install -r requirements.txt
 # Run notebook
 jupyter notebook
 
-## Future Improvements
+Future Improvements
 
 * Hyperparameter tuning for better recall
 * Deployment using Streamlit
 * Handling class imbalance using SMOTE
 * Trying advanced models like XGBoost
 
-## Author
+Author
 
-**Mahika Jojee**
+Mahika Jojee
 
-* Aspiring Data Scientist
-* Passionate about pattern recognition and data-driven decision making
+- Aspiring Data Scientist
+- Passionate about pattern recognition and data-driven decision making
 
----
 
-## ⭐ If you like this project
+
+⭐ If you like this project
 
 Give it a ⭐ on GitHub!
